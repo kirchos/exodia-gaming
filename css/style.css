@@ -85,6 +85,7 @@ nav a {
 
 .card h3 {
     background: gold;
+    color: indigo;
    width: 100%;
    padding: 5px 0;
 }
@@ -111,6 +112,13 @@ nav a {
     text-transform: uppercase;
 }
 
+.info {
+    color: gold;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+
 .card .answer {
     text-align: center;
 } 
@@ -119,6 +127,31 @@ nav a {
     border-bottom: solid 2px gold;
 }
 
+#server-info {
+    padding: 0;
+    
+}
+
+#server-info li {
+    background: gold;
+    padding:  5px;
+    margin: 5px 0;
+    border: solid 2px black;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.donate {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    background: gold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-top: indigo solid 3px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 @media (min-width: 598px) {
 
