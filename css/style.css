@@ -139,7 +139,7 @@ footer img {
 
 footer p {
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     background-color: #2B2D42;
 }
 
@@ -200,7 +200,7 @@ footer p {
     .card {
         width: 40%;
         height: 100%;
-        /* margin: 10px; */
+        margin-bottom: 40px;
     }
 
     #slika {
@@ -208,7 +208,7 @@ footer p {
         margin-top: 90px;
         height: 300px;
         max-width: 100%;
-        background: url("../images/conan-wallpaper.jpg")no-repeat fixed;
+        background: url("../images/Group4.png")no-repeat fixed;
         background-size: 100% 600px;
         position: relative;
     }
@@ -242,7 +242,42 @@ footer p {
 }
 
 @media (min-width: 1024px) {
-    .main-wrapper  #slika {
-        display: none;
+    header {
+        position: fixed;
+        height: 100px;
+    }
+    header h1 {
+        position: absolute;
+        left:50px;
+        margin: 20px 0;
+    }
+
+    #server-info-nav{
+        justify-self: right;
+        position: absolute;
+        right: 50px;
+    }
+
+    #slika {
+        height: 500px;
+        background-size: 100% 800px;
+    }
+
+    .cards {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card li {
+        list-style: none;
+        padding: 10px;
+        border-bottom: solid 1px #FC5130;
+    }
+
+    .card {
+        width: 20%;
+    }
+    .card-description {
+        display: block;
     }
 }
