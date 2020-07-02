@@ -78,6 +78,9 @@ nav a {
     margin: 0 0 .6em;
     
 }
+#server-info-nav {
+    display: none;
+}
 
 .sInfo p {
     text-align: left;
@@ -126,26 +129,114 @@ nav a {
 footer {
     background-color: #FC5130;
     color: #fff;
-    height: 80px;
+    text-align: center;
 }
 
 footer img {
     width: 175px;
+    padding-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    background-color: #2B2D42;
+}
+
+#slika {
+    display: none;
 }
 
 
-/* @media (min-width: 598px) {
+@media (min-width: 598px) {
 
     header {
         border-bottom: solid 3px gold;
         padding: 10px;
-    }
-    .main-content {
-        display: block;
-        width: 50%;
-        margin: 120px auto 20px;
-        
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 99;
     }
 
-} */
+    header ul {
+        display: none;
+    }
+
+    header h1 {
+        /* align-self: flex-start; */
+        margin: 20px;
+        justify-self: flex-start;
+        align-items: center;
+    }
+    
+    #server-info-nav {
+        display: block;
+        justify-self: right;
+        text-align: left;
+    }
+
+    #server-info-nav li {
+        list-style: none;
+        padding: 5px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .main-content {
+        display: block;        
+        margin: 95px auto 0;  
+    }
+
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .card {
+        width: 40%;
+        height: 100%;
+        /* margin: 10px; */
+    }
+
+    #slika {
+        display: block;
+        margin-top: 90px;
+        height: 300px;
+        max-width: 100%;
+        background: url("../images/conan-wallpaper.jpg")no-repeat fixed;
+        background-size: 100% 600px;
+        position: relative;
+    }
+
+    #slika img {
+        width: 450px;
+        top: 90px;
+        left: 25px;
+        position: relative;
+    }
+
+    .sInfo h2,
+    .sInfo p {
+        width: 75%;
+        margin: 10px auto ;
+    }
+
+    .sInfo h2 {
+        font-size: 2.3rem;
+    }
+
+    .sInfo p {
+        padding-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .cards {
+        padding-top: 30px;
+    }
+
+}
