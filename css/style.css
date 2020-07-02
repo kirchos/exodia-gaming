@@ -148,7 +148,7 @@ footer p {
 }
 
 
-@media (min-width: 598px) {
+@media (min-width: 768px) {
 
     header {
         border-bottom: solid 3px gold;
@@ -239,4 +239,10 @@ footer p {
         padding-top: 30px;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .main-wrapper  #slika {
+        display: none;
+    }
 }
