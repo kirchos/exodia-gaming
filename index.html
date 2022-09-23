@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/d02c7b7f0b.js" crossorigin="anonymous"></script>
     <title>Exodia Gaming</title>
 </head>
@@ -22,11 +24,11 @@
                     <li>ip: 78.157.26.8:7777</li>
                 </ul>
                 <nav>
-                    <ul>
-                        <li><a href="#">Server Info</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Rules</a></li>
-                        <li><a href="#">Donations</a></li>
+                    <ul id="nav-container">
+                        <li class="nav-item"><a href="#server-info">Server Info</a></li>
+                        <li class="nav-item"><a href="#">About Us</a></li>
+                        <li class="nav-item"><a href="#rules">Rules</a></li>
+                        <li class="nav-item"><a href="#">Donations</a></li>
                     </ul>
                 </nav>
             </header>
@@ -36,51 +38,87 @@
                 </div>
                 <div class="sInfo">
                     <h2>Welcome to Exodia Gaming</h2>
-                    <p>We are a new server with experience with Conan after playing on other servers ourselves. We are
+                    <p>We are a server started back in 2020 with experience with Conan after playing on other servers
+                        ourselves.
+                        We are
                         laid back and friendly.
                         Our server will consist of lots of fun compeitions where you can earn yourself gold, which you
-                        can use in the market, along with there being rules</p>
+                        can use in the market, along with there being <a class="rules_anch" href="#">rules</a></p>
 
                 </div>
                 <div class="cards">
-                    <div class="card">
+                    <div class="card" id="server-info">
                         <h3>Server Info</h3>
-                        <p class="short-description">You Can connect to our server simply by direct connect using ip or
-                            search by name.</p>
                         <div class="card-description">
-                            <p>You Can connect to our server simply by direct connect using ip or search by name.</p>
-                            <ul id="server-info">
-                                <li>Name: Exodia Gaming</li>
-                                <li>ip: 78.157.26.8:7777</li>
-                                <li><i class="fab fa-discord"></i> <a href="https://discord.gg/6fxeqg"
-                                        target="_blank">Click
-                                        to
-                                        connect</a></li>
-                            </ul>
+                            <p id="server-settings"> server settings.</p>
+                            <div id="">
+                                <ul id="server-info">
+                                    <li>Daily Quest System</li>
+                                    <li>Custom Quests</li>
+                                    <li>NPC buy raw materials</li>
+                                    <li>NPC earn daily money</li>
+                                    <li>Thrall Max LvL: 100</li>
+                                    <li>Chose a Custom Class</li>
+                                    <li>Max Player Level: 600</li>
+                                    <li>Player XP Rate Multiplier: 3</li>
+                                    <li>Player XP Kill Multiplier: 3</li>
+                                    <li>Player XP Harvest Multiplier: 3</li>
+                                    <li>Player XP Craft Multiplier: 3</li>
+                                    <li>Camps Ignore Land Claim: True</li>
+                                    <li>PVP Enabled: False</li>
+                                    <li>Fuel Burn Time Multiplier: 3</li>
+                                    <li>Drop Equipment On Death: False</li>
+                                    <li>Max Nudity: Full</li>
+                                    <li>Name: Exodia Gaming</li>
+                                    <li>ip: 78.157.26.8:7777</li>
+                                    <li>Mods and <a
+                                            href="https://steamcommunity.com/sharedfiles/filedetails/?id=2470138738"
+                                            target="_blank">Mod Order</a></li>
+                                </ul>
+                            </div>
 
                         </div>
-                        <a href="#">Show More</a>
+                        <div class="card-end">
+                            <p>Join our Discord <a href="https://discord.gg/56b3ECeeSr" target="_blank"
+                                    class="disclin"><img
+                                        src="https://cdn.iconscout.com/icon/free/png-512/discord-2752210-2285027.png"
+                                        alt="" id="dissmal"></a></p>
+                        </div>
                     </div>
 
                     <div class="card">
                         <h3>Market</h3>
-                        <p class="short-description">You can find it in the middle of i-5</p>
                         <div class="card-description">
                             <div>
-                                <p class="question">Where is it located?</p>
-                                <img src="images/ConanSandbox_XBQNapUiL9.png" alt="" width="200px">
-                                <p class="answer">You can find it in the middle of i-5</p>
+
+                                <div class="question-box">
+                                    <p class="question question-1">Where i can find the market?</p>
+                                    <p class="answer">
+                                        You can find the market in the middle of the map, in the middle of the desert.
+                                    </p>
+                                </div>
+
+                                <div class="question-box">
+                                    <p class="question question-2">What can i Buy?</p>
+
+                                    <p class="answer">
+
+                                    </p>
+                                </div>
+
+                                <div class="question-box">
+                                    <p class="question question-3">Where i can find it?</p>
+                                    <p class="answer">
+
+                                    </p>
+                                </div>
                             </div>
-                            <p class="question">what can i buy?</p>
-                            <!-- Trigger JS event -->
-                            <a href="#">See More</a>
-                            <p>There is also a second floor, you have to be a V.I.P Member to access, everything on the
-                                second floor will be high tier/rare for our noble donators.</p>
-                            <span><a href="#" class="info">How do I become a Noble donator?</a></span>
+
+
                         </div>
-                        <a href="#">Show More</a>
+
                     </div>
-                    <div class="card">
+                    <div class="card" id="rules">
                         <h3>Rules</h3>
                         <div class="card-description">
                             <ul>
