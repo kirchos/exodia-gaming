@@ -92,17 +92,17 @@ header h1 {
 
 .sInfo {
     margin-bottom: 25px;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 .sInfo h2 {
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 1.5em;
     margin-bottom: 25px;
 }
 
 .sInfo p {
-    line-height: 20px;
+    line-height: 25px;
     letter-spacing: 1px;
     padding: 0 15px;
     text-align: left;
@@ -152,6 +152,12 @@ header h1 {
 .card-description {
     text-align: left;
     padding: 0;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+
+.card-description p {
+    padding: 10px 0;
 }
 
 .card-end {
@@ -174,15 +180,15 @@ header h1 {
 .question {
     font-size: 24px;
     font-weight: 700;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    /* padding-bottom: 5px; */
+    /* margin-bottom: 15px; */
     border-bottom: solid 1px #FC5130;
     display: inline-block;
 
 }
 
 .answer {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     font-weight: 500;
 }
 
@@ -231,9 +237,23 @@ header h1 {
     text-align: center;
 }
 
-.supportCard {
-    font-size: 18px;
-    line-height: 20px;
+
+.quest {
+    margin-top: 50px;
+}
+
+.questHolder {
+    position: relative;
+    /* margin: 35px 0; */
+}
+
+.questImg {
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    bottom: 37px;
+    right: 20px;
+
 }
 
 footer {
@@ -244,6 +264,11 @@ footer {
 footer a {
     background-color: #FC5130;
 
+}
+
+.str span {
+    text-decoration: solid;
+    color: red;
 }
 
 footer p {
