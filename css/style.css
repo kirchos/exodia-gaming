@@ -64,7 +64,6 @@ header h1 {
 
 #nav-container {
     margin-bottom: 15px;
-    z-index: 9999;
 }
 
 
@@ -73,7 +72,6 @@ header h1 {
     padding: 5px 15px;
     text-align: center;
     border-bottom: solid 1px #fff;
-
 
 }
 
@@ -327,8 +325,7 @@ footer a>img {
         grid-template-columns: repeat(5, 1fr);
         margin-bottom: -13px;
         border-bottom: #2A2C39 solid 3px;
-        position: sticky;
-        top: 0;
+
     }
 
     header h1 {
@@ -409,7 +406,6 @@ footer a>img {
     .desk {
         display: block;
     }
-
 
     .quest {
         grid-column: 2/8;
