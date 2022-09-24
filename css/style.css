@@ -209,6 +209,11 @@ header h1 {
 
 .inactive {
     display: none;
+    content: none;
+}
+
+.answer {
+    font-size: 18px;
 }
 
 /* Rules */
