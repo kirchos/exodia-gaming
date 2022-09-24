@@ -64,6 +64,7 @@ header h1 {
 
 #nav-container {
     margin-bottom: 15px;
+    z-index: 9999;
 }
 
 
@@ -72,6 +73,7 @@ header h1 {
     padding: 5px 15px;
     text-align: center;
     border-bottom: solid 1px #fff;
+
 
 }
 
@@ -402,6 +404,10 @@ footer a>img {
         grid-column: 2/8;
         border: none;
         grid-row: 5;
+    }
+
+    .desk {
+        display: block;
     }
 
 
